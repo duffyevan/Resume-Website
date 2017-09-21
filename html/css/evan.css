@@ -23,7 +23,7 @@ h1{
 }
 
 .hib {
-  background: url('/resources/Arlington-b.gif');
+  background-image: url("https://www.evanduffy.org/resources/Arlington.gif");
   background-size: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -114,6 +114,8 @@ h1{
 
   .avatar:hover{
     border-radius: 10px; 
+    /*width: 120%;
+    height: 120%;*/
     /*transform: translate(0px,-30px);  */
     /*2 Different effects, both cool*/
   }
