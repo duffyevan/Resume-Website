@@ -1,5 +1,8 @@
 body{
-  background-color: #D5D5D5; 
+  /*background-color: #D5D5D5;*/
+  background-image: -webkit-linear-gradient(#0de8dd 0%, #db6200 100%);
+  background-size: cover;
+  min-height:100%;
 }
 
 p{
@@ -11,8 +14,8 @@ h1{
   color: #616161;
 }
 
-.page-header {
-
+.navbar {
+	background-color:#dd0ce8
 }
 
 .container {
@@ -45,7 +48,7 @@ h1{
 
 .myname:hover{
   /* color: #CA9822;
-  background: #2098d1; */
+  background: #0de8dd; */
 }
 
 .text-box{
@@ -77,11 +80,11 @@ li{
   padding: 40px;
   font-size: 10px;
   text-align: center;
-  transition: all ease 0.4s;
+ /* transition: all ease 0.4s;
   transition-property: all;
   transition-duration: 0.4s;
   transition-timing-function: ease;
-  transition-delay: initial;
+  transition-delay: initial;*/
 }
 
 /* .myfooter:hover{
@@ -156,7 +159,7 @@ li{
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098d1;
+  background: #0de8dd;
   height: 4px;
   -webkit-transform: translateY(4px);
   transform: translateY(4px);
@@ -196,7 +199,7 @@ li{
   bottom: 0;
   left: 0;
   right: 0;
-  background: #2098d1;
+  background: #0de8dd;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 50%;

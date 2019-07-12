@@ -2,6 +2,12 @@
 <html>
 <head>
     <title>Evan Duffy</title>
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous"></script>
+    
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -9,7 +15,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
     <!-- My customizations -->
-    <link rel="stylesheet" type="text/css" href="css/evan.css">
+    <link rel="stylesheet" type="text/css" href="/css/evan.css">
 </head>
 
 
@@ -24,10 +30,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="hvr-underline-reveal"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
-            <li class="hvr-underline-reveal"><a href="cs.html">Projects<span class="sr-only"></span></a></li>
-            <li class="hvr-underline-reveal"><a href="resources/Resume.pdf">Resume<span class="sr-only"></span></a></li>
-            <li class="hvr-underline-reveal active"><a href="contact.html">Contact<span class="sr-only"></span></a></li>
+            <li class="hvr-underline-reveal"><a href="/">Home<span class="sr-only">(current)</span></a></li>
+            <li class="hvr-underline-reveal"><a href="/projects">Projects<span class="sr-only"></span></a></li>
+            <li class="hvr-underline-reveal"><a href="/resume.php">Resume<span class="sr-only"></span></a></li>
+            <li class="hvr-underline-reveal active"><a href="/contact.php">Contact<span class="sr-only"></span></a></li>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
@@ -44,24 +50,17 @@
     </center>
     <div class="text-box">
         <h1>Contact Information</h1>
-        <h2>Phone:</h2>
-        <p>(339)-368-2852</p>
-        <hr>
         <h2>Email:</h2>
         <p><strong>WPI:</strong> elduffy@wpi.edu</p>
-        <p><strong>Gmail:</strong> evanlduffy@gmail.com</p>
         <hr>
         <h2>Mailing Address:</h2>
         <p><strong>School:</strong> 100 Institute Rd Box 765 Worcester Massachusetts 01609</p>
     </div>
     
 </div>
-<center><small>If you're having trouble viewing this webpage, you're probably using Internet Explorer. Please stop, you're making life harder for web developers everywhere</small></center>
 <div class="myfooter">
     <p>Evan Duffy <br> 
-        <a href="https://www.reddit.com/user/DuffyEvan/"><img src="http://vectorlogofree.com/wp-content/uploads/2014/07/49434-reddit-logo-icon-vector-icon-vector-eps.png" class="link-icon"></a>
-        <a href="https://github.com/duffyevan"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2000px-Octicons-mark-github.svg.png" class="link-icon"></a><br>
-        February 2016</p>
+        <?php echo date('F Y') ?></p>
     </div>
 </body>
 </html>

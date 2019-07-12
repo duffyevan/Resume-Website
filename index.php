@@ -15,7 +15,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
     <!-- My customizations -->
-    <link rel="stylesheet" type="text/css" href="css/evan.css">
+    <link rel="stylesheet" type="text/css" href="/css/evan.css">
 </head>
 
 
@@ -30,10 +30,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-           <li class="hvr-underline-reveal active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
-           <li class="hvr-underline-reveal"><a href="cs.html">Projects<span class="sr-only"></span></a></li>
-           <li class="hvr-underline-reveal"><a href="resources/Resume.pdf">Resume<span class="sr-only"></span></a></li>
-           <li class="hvr-underline-reveal"><a href="contact.html">Contact<span class="sr-only"></span></a></li>
+           <li class="hvr-underline-reveal active"><a href="/">Home<span class="sr-only">(current)</span></a></li>
+           <li class="hvr-underline-reveal"><a href="/projects">Projects<span class="sr-only"></span></a></li>
+           <li class="hvr-underline-reveal"><a href="/resume.php">Resume<span class="sr-only"></span></a></li>
+           <li class="hvr-underline-reveal"><a href="/contact.php">Contact<span class="sr-only"></span></a></li>
        </div><!-- /.navbar-collapse -->
    </div><!-- /.container-fluid -->
 </nav>
@@ -49,16 +49,15 @@
         </div> 
     </center>
     <div class="text-box">
-        <h1>Hello, World!</h1>
-        <p>Welcome to my website! Feel free to look around, definitely check out my projects if you get a chance, there will be more coming soon too. There isn't much up here for the time being but there will definitely be more to come. If you'd like to check out my older and more hap-hazard website feel free to check it out <a href="http://og.evanduffy.org">here</a></p>
+        <h1>Hey!</h1>
+        <p>I'm Evan Duffy, and I am a recent Computer Science graduate from Worcester Polytechnic Institute who is soon to start working at VMware full time! I have school and work experience using agile software development and scrum. Two of my summers in college were spent interning at VMware (which was awesome) where I worked on adding new features to SAAS applications. My other summer was spent at Cynosure Inc. updating legacy code. I'm a big fan of hobby electronics, 3D printing, music, camping and frisbee (not necessarily in that order!).</p>
+        <p>This site is intended to act as an extension of my resume, feel free to look around and even <a href="/contact.php">reach out to me</a> if you'd like!</p>
     </div>
     
 </div>
 <div class="myfooter">
     <p>Evan Duffy <br> 
-        <a href="https://www.reddit.com/user/DuffyEvan/"><img src="http://vectorlogofree.com/wp-content/uploads/2014/07/49434-reddit-logo-icon-vector-icon-vector-eps.png" class="link-icon"></a>
-        <a href="https://github.com/duffyevan"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2000px-Octicons-mark-github.svg.png" class="link-icon"></a><br>
-        February 2016</p>
+        <?php echo date('F Y') ?></p>
     </div>
 </body>
 </html>
