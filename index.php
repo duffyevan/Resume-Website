@@ -50,7 +50,7 @@
     </center>
     <div class="text-box">
         <h1>Hey!</h1>
-        <p>I'm Evan Duffy, and I am a recent Computer Science graduate from Worcester Polytechnic Institute who is soon to start working at VMware full time! I have school and work experience using agile software development and scrum. Two of my summers in college were spent interning at VMware (which was awesome) where I worked on adding new features to SAAS applications. My other summer was spent at Cynosure Inc. updating legacy code. I'm a big fan of hobby electronics, 3D printing, music, camping and frisbee (not necessarily in that order!).</p>
+        <p>I'm Evan Duffy, and I am a recent Computer Science graduate from Worcester Polytechnic Institute who is now working at VMware full time! I have school and work experience using agile software development and scrum. Two of my summers in college were spent interning at VMware (which was awesome) where I worked on adding new features to SAAS applications. My other summer was spent at Cynosure Inc. updating legacy code. I'm a big fan of hobby electronics, 3D printing, music, camping and frisbee (not necessarily in that order!).</p>
         <p>This site is intended to act as an extension of my resume, feel free to look around and even <a href="/contact.php">reach out to me</a> if you'd like!</p>
     </div>
     
