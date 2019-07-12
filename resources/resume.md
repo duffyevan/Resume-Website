@@ -1,10 +1,5 @@
 # Evan Duffy
 
-27 Bradley Rd, Arlington MA, 02474
-
-[evanLduffy@gmail.com](mailto:evanlduffy@gmail.com)
-
-339 - 368 - 2852
 
 ## _Objective_
 
