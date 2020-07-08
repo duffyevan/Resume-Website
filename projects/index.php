@@ -29,7 +29,7 @@
 	<nav class="navbar navbar-default">
 	  <div class="container-fluid">
 		<div class="navbar-header">
-			<img alt="Brand" src="http://pokemoncreed.net/img/icon/Bidoof.gif">
+			<img alt="Brand" src="https://pokemoncreed.net/img/icon/Bidoof.gif">
 			<a class="navbar-brand hvr-shutter-out-horizontal " href="#" id="nav-name">Evan Duffy</a>
 		</div>
 
